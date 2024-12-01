@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+1. h1-h6 là heading
+2. p - paragraph là đoạn văn dưới deading
+3. img là ảnh
+4. a - anchor nghĩa là mỏ neo (neo đường liên kết)
+5. ul, li - unoder list (hiển thị danh sách item ) đổi qa ol thì dấu chấm thành số
+6. table - dùng khi kẻ ra cái bảng
+7. input - tạo ra 1 cái textbox
+8. button
+9. div - bao quanh nội dung
+ -->
+<html>
+  <!-- phần đầu -->
+  <head>
+    <!-- (head là viết title của trang wed TAB Ở TRÊN) -->
+    <title>F8 - SHOP</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- (charset hỗ trợ hiển thị tiếng việt) -->
+    <style>
+      .box1 {
+        width: 50%;
+        height: 100px;
+        background-color: blue;
+        padding-top: 50px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        border-style: solid;
+        border-width: 1px;
+        border-right-width: 10px;
+        border-color: rgb(255, 255, 255);
+      }
+      .box2 {
+        width: 50%;
+        height: 100px;
+        background-color: rgb(216, 213, 27);
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        /* pading là đệm thêm khung vào */
+      }
+    </style>
+  </head>
+  <!-- phần thân -->
+  <body>
+    <!-- <h1 title="đây là title">
+      Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
+    </h1> -->
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    <h1 id="firt-1">
+      Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
+    </h1>
+    <h1 class="thu">
+      <!-- class phải cùng tên  -->
+      Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
+    </h1>
+    <h1 class="thu">
+      Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
+    </h1>
+    <h1 class="thu">
+      Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
+    </h1>
+    <h2>duy thu đẹp trai</h2>
+    <h3>try your best</h3>
+    <h4>everything is okay</h4>
+    <p>
+      (Dân trí) - Đội tuyển Việt Nam đặt tham vọng rất lớn giành chức vô địch
+      AFF Cup 2024. Trên hành trình ấy, chúng ta sẽ phải đối diện với "ngọn núi
+      lửa" mang tên Indonesia.
+    </p>
+    <img
+      src="https://cdnphoto.dantri.com.vn/1LOQSRD2hvT3aSBXFGBQMAhKnvM=/2024/11/30/hoangductt2-1711538202533-1732903125031.jpeg"
+      alt="ảnh cầu thủ"
+    />
+    <a href="https://www.facebook.com/profile.php?id=100011169545329"
+      >tới trang fb của duy thu
+    </a>
+    <ul>
+      <li>
+        Tuyển Việt Nam chuyển mình và nước cờ táo bạo trước Indonesia hùng mạnh
+      </li>
+      <li>Đội tuyển Việt Nam và nỗi lo sợ mang tên Shin Tae Yong</li>
+      <li>
+        Tuyển Việt Nam: Bóng ma quá khứ ám ảnh trước đại chiến gặp Indonesia
+      </li>
+      <li>CĐV Đông Nam Á phản ứng khi tuyển Việt Nam nhập tịch cầu thủ</li>
+    </ul>
+    <table>
+      <thead>
+        <th>STT</th>
+        <th>tên</th>
+        <th>địa chỉ</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Thu đặng</td>
+          <td>37 hóa sơn 2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Thu duy đặng</td>
+          <td>37 hóa sơn 2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>duy thu</td>
+          <td>37 hóa sơn 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="text" />
+    <input type="checkbox" />
+    <input type="radio" />
+    <button>Đăng ký</button>
+  </body>
+</html>

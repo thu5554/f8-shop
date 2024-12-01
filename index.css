@@ -1,0 +1,37 @@
+#firt-1 {
+  color: blue; /* Màu chữ */
+  font-size: 30px; /* Kích thước chữ */
+  text-align: left; /* Căn giữa văn bản */
+  font-family: "Arial", sans-serif; /* Font chữ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Tạo hiệu ứng đổ bóng cho chữ */
+  letter-spacing: 1px; /* Giãn khoảng cách giữa các chữ */
+  margin: 5px 0; /* Khoảng cách ngoài */
+}
+.thu {
+  color: rgb(115, 181, 243); /* Màu chữ */
+  font-size: 30px; /* Kích thước chữ */
+  text-align: left; /* Căn giữa văn bản */
+  font-family: "Arial", sans-serif; /* Font chữ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Tạo hiệu ứng đổ bóng cho chữ */
+  letter-spacing: 1px; /* Giãn khoảng cách giữa các chữ */
+  margin: 5px 0; /* Khoảng cách ngoài S*/
+}
+:root {
+  --text-color: rgb(23, 160, 69);
+  /* câu lệnh var dùng để đổi màu cho tất cả các thẻ mà kh cần bấm từng cái */
+}
+h2 {
+  --my-color: blue;
+  color: var(--my-color);
+}
+h3 {
+  color: var(--text-color);
+}
+h4 {
+  color: var(--text-color);
+}
+.box {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+}
