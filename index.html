@@ -20,10 +20,10 @@
     <!-- (charset hỗ trợ hiển thị tiếng việt) -->
     <style>
       .box1 {
-        width: 50%;
+        width: 100px;
         height: 100px;
         background-color: blue;
-        padding-top: 50px;
+        /* /* padding-top: 50px;
         padding-top: 50px;
         padding-left: 50px;
         padding-bottom: 50px;
@@ -31,9 +31,10 @@
         border-width: 1px;
         border-right-width: 10px;
         border-color: rgb(255, 255, 255);
+        box-sizing: border-box; */
       }
       .box2 {
-        width: 50%;
+        width: 100px;
         height: 100px;
         background-color: rgb(216, 213, 27);
         padding-top: 50px;
@@ -41,6 +42,20 @@
         padding-bottom: 50px;
         padding-right: 50px;
         /* pading là đệm thêm khung vào */
+        /* /* margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px; */
+        /* margin là tạo khoảng cách cho các box */
+      }
+      .header {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(230, 11, 11);
+        padding: 20px;
+        box-sizing: border-box;
+        border: 10px dashed;
+        background-clip: content-box;
+        /* background-clip: padding-box; */
       }
     </style>
   </head>
@@ -51,6 +66,7 @@
     </h1> -->
     <div class="box1"></div>
     <div class="box2"></div>
+    <div class="header"></div>
 
     <h1 id="firt-1">
       Giấc mộng bá vương, phép thử của tuyển Việt Nam trước "ngọn núi" Indonesia
