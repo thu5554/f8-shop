@@ -21,7 +21,7 @@
   /* câu lệnh var dùng để đổi màu cho tất cả các thẻ mà kh cần bấm từng cái */
 }
 h2 {
-  --my-color: blue;
+  --my-color: rgb(0, 0, 0);
   color: var(--my-color);
 }
 h3 {
